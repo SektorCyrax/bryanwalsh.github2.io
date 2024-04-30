@@ -18,6 +18,7 @@
         </style>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width=device-width" />
+        <link rel="stylesheet" type="text/css" href="stylesheet/sample_portfolio.css">
         <title>My Portfolio</title>
     </head>
     <body class = "Background">
@@ -83,9 +84,6 @@
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span> 
-                    <span class="dot" onclick="currentSlide(4)"></span> 
-                    <span class="dot" onclick="currentSlide(5)"></span> 
-                    <span class="dot" onclick="currentSlide(6)"></span> 
                 </div>
             </div>
         </div>              
@@ -142,5 +140,6 @@
             <br>
         </p>
     </footer>
+    <script src="JS/sample_portfolio.js"></script>
     </body>
 </html>
